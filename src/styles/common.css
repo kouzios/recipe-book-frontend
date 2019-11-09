@@ -8,12 +8,36 @@ body {
 }
 
 .logo {
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 50px !important;
+  max-height: 50px !important;
 }
 
-.abet-button {
-  background-color: #FF6C2C !important; /* From ABET website */
+.small-logo {
+  max-width: 25px !important;
+  max-height: 25px !important;
+}
+
+.recipe-button {
+  background-color: #FF6C2C !important;
   border-color: darkorange !important;
 }
+
+.incomplete {
+  color: red;
+}
+
+.complete {
+  color: green;
+}
   
+.hamburger {
+  font-size: 24px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.semi-transparent {
+  opacity: 0.1;
+}

@@ -1,0 +1,17 @@
+#hamburgerCircle {
+    -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .75));
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .75));
+}
+
+.sidebar .item:hover {
+    background-color: #e5e5e9 !important;
+}
+
+.ui.sidebar {
+    background-color: #f8f9fa! important;
+    border-top-color: rgba(0, 0, 0, 0); /* Removing border top */
+}
+
+#signout {
+    margin-top: auto;
+}
